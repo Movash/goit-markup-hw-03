@@ -2,6 +2,29 @@
 --accent-color: #404BBF;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+ul, ol {
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
+button {
+cursor: pointer;
+}
+
+address {
+font-style: normal;
+}
+
+img {
+display: block;
+}
+
 .list {
 list-style: none;
 }
@@ -23,7 +46,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-cursor: pointer;
 border: none;
 }
 
@@ -78,10 +100,6 @@ color: #2E2F42;
 .menu-link:hover,
 .menu-link:focus {
 color: var(--accent-color);
-}
-
-.address {
-font-style: normal;
 }
 
 .contact {
