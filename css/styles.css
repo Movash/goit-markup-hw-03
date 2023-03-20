@@ -1,0 +1,185 @@
+:root {
+--accent-color: #404BBF;
+}
+
+.list {
+list-style: none;
+}
+
+.link {
+text-decoration: none;
+}
+
+/* ================= COMPONENTS ================*/
+body {
+font-family: 'Roboto', sans-serif;
+color: #434455;
+background-color:#FFFFFF;
+}
+
+.modal-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+border: none;
+}
+
+.headline {
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2E2F42;
+}
+
+.title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.description {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* ================= /COMPONENTS ================*/
+
+/* ================= HEADER ================*/
+.logotype {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.logotype-second-color-dark {
+color: #2E2F42;
+}
+
+.menu-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color: var(--accent-color);
+}
+
+.address {
+font-style: normal;
+}
+
+.contact {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.contact:hover,
+.contact:focus {
+color: var(--accent-color);
+}
+
+/* ================= /HEADER ================*/
+
+/* ================= HERO ================*/
+.hero {
+background-color: #2e2f42;
+}
+
+.hero-title {
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #FFFFFF;
+}
+
+.hero-modal-btn {
+background: #4D5AE5;
+color: #FFFFFF;
+}
+
+.hero-modal-btn:hover,
+.hero-modal-btn:focus {
+background-color: var(--accent-color);
+}
+
+/* ================= /HERO ================*/
+
+/* ================= ADVANTAGES ================*/
+
+/* ================= /ADVANTAGES ================*/
+
+/* ================= DOING ================*/
+
+/* ================= /DOING ================*/
+
+/* ================= TEAM ================*/
+
+.team {
+background-color: #F4F4FD;
+}
+
+.team-item {
+background-color: #FFFFFF;
+}
+/* ================= /TEAM ================*/
+
+
+
+/* ======== PORTFOLIO =======*/
+
+/* ====== BUTTONS =====*/
+
+.buttons-modal-btn {
+background: #F4F4FD;
+color: #4D5AE5;
+}
+
+.buttons-modal-btn:hover,
+.buttons-modal-btn:focus {
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+
+/* ====== /BUTTONS =====*/
+
+/* ======== /PORTFOLIO =======*/
+
+
+
+/* ================= FOOTER ================*/
+
+.footer {
+background-color: #2e2f42;
+}
+
+.logotype-second-color-light {
+color: #F4F4FD;
+}
+
+.footer-description {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+/* ================= /FOOTER ================*/
