@@ -33,6 +33,19 @@ list-style: none;
 text-decoration: none;
 }
 
+.section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.container {
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
 /* ================= COMPONENTS ================*/
 body {
 font-family: 'Roboto', sans-serif;
@@ -47,6 +60,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 border: none;
+border-radius: 4px;
 }
 
 .headline {
@@ -56,6 +70,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2E2F42;
+margin-bottom: 72px;
 }
 
 .title {
@@ -75,6 +90,44 @@ letter-spacing: 0.02em;
 /* ================= /COMPONENTS ================*/
 
 /* ================= HEADER ================*/
+.page-header {
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.page-header-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.page-nav {
+display: flex;
+align-items: center;
+}
+
+.menu {
+display: flex;
+align-items: center;
+}
+
+.contact-address {
+display: flex;
+align-items: center;
+}
+
+.header-logotype {
+margin-right: 76px;
+}
+
+.menu-item:not(:last-child) {
+margin-right: 40px;
+}
+
+.contact-mail {
+margin-right: 40px;
+}
+
 .logotype {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
@@ -119,9 +172,16 @@ color: var(--accent-color);
 /* ================= HERO ================*/
 .hero {
 background-color: #2e2f42;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 .hero-title {
+height: 120px;
+width: 496px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 48px;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
@@ -130,6 +190,7 @@ color: #FFFFFF;
 }
 
 .hero-modal-btn {
+padding: 16px 32px;
 background: #4D5AE5;
 color: #FFFFFF;
 }
@@ -142,6 +203,10 @@ background-color: var(--accent-color);
 /* ================= /HERO ================*/
 
 /* ================= ADVANTAGES ================*/
+
+.advantages {
+padding-top: 120px;
+}
 
 /* ================= /ADVANTAGES ================*/
 
@@ -187,6 +252,8 @@ background-color: var(--accent-color);
 
 .footer {
 background-color: #2e2f42;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .logotype-second-color-light {
